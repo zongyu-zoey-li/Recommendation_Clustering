@@ -1,4 +1,4 @@
-function [f] = hw2_eval_metrics(actual,predicted)
+function [f] = eval_metrics(actual,predicted)
 real_g1=actual(predicted==1);
 real_g2=actual(predicted==2);
 
