@@ -1,4 +1,4 @@
-run('hw2_p4_data.m')
+run('data.m')
 %% spectral clustering
 d=sum(Adj,2);
 D=diag(d);
